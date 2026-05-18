@@ -49,7 +49,7 @@ Algo sobre mí : Me gusta mucho escuchar música, los gatos y por supuesto la co
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
 1. El origen de Git, 
-2. El ciclo del archivo en git
+2. Los estados de un archivo en git
 3. La función de los comandos: 'commit' y 'push'
 
 ---
