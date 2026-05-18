@@ -22,6 +22,9 @@ Algo sobre mí : Me gusta mucho escuchar música, los gatos y por supuesto la co
 ## Nivel 2 · Lo que ya sabes hacer
 
 **Qué hacer:** Agrega al menos tres cosas que sabes hacer (no tienen que ser de programación).  
+1) Diagnosticar problemas menores a nivel de hardware
+2) Puedo explicar con facilidad temas de mi interés
+3) Soy autodidacta 
 **Commit:** `feat(habilidades): agrega lista de habilidades`
 
 - 
