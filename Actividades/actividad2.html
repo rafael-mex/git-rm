@@ -30,6 +30,33 @@ int main() {
 </pre></code>
 
     <h2>Explicación del código:</h2> 
+    <p>Descripción: <br> El código del programa en C le solicita al usuario su edad y luego verifica si es mayor o menor. De esta manera: </p>
+
+    <pre><code>
+#include &lt;stdio.h&gt; -> Incluye la biblioteca estándar de entrada y salida, necesaria para usar funciones como <code>printf y </code>scanf</code>
+
+int main() { -> Es la función principal, desde aquí comienza la ejecución del código, se abren corchetes para indicar el incio y final del código. 
+    <hr>
+    int edad; -> Declara que la variable "edad" es de tipo entero.
+    <hr>
+    printf("¿Cuántos años tienes? "); -> Imprime el mensaje de "¿Cuántos años tienes?" en la consola.
+    <hr>
+    scanf("%d", &edad); -> <br>    scanf: Escanea la entrada del usuario, en este caso, un número. <br>    %d: Es un especificador de formato, sirve para leer números enteros o decimales. <br>    &edad: Indica que el valor ingresado por el usuario se guardará en lavariable de "edad", anteriormente declarada como entero.
+    <hr>
+
+    if (edad >= 18) { -> Condicional if: Revisa si el número almacenado en "edad" es mayor o igual a 18, si se cumple esta condición, se ejecuta el código contenido dentro de los corchetes. 
+    <br>
+        printf("Eres mayor de edad.\n"); -> Imprime el mensaje "Eres mayor de edad" en la consola. <br> \n : Significa salto de línea.
+    <br>
+    } else { -> Si la condicion de "if" no se cumple, entonces se ejecuta el código contenido dentro de los corchetes, que inicia después del "else". 
+    <br>
+        printf("Eres menor de edad.\n"); -> Imprime el mensaje "Eres menor de edad" en la consola.<br> \n : Significa salto de línea.
+    }
+    <hr>
+    return 0; -> Indicca que el programa ha finalizado sin errores. 
+}
+
+</pre></code>
 
 
 
@@ -40,6 +67,6 @@ int main() {
 
 <!-- Titulos jerarquicos -->
 <!-- Bloque de code -->
-<!-- Blpque de <pre> -->
+<!-- Bloque de <pre> -->
 <!-- Párrafo -->
     
