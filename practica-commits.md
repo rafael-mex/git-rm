@@ -61,12 +61,12 @@ Algo sobre mí : Me gusta mucho escuchar música, los gatos y por supuesto la co
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` |Inicializa un repositorio local de git|
-| `git status` |Muestra el estado de los archivos que estan dentro del repositorio|
-| `git add .` |Actualiza el estado de todos los archivos nuevos o modificados al "staging area"|
-| `git commit -m "..."` |Guarda una "foto" de los cambios hechos|
-| `git log --oneline` |Muestra el historial de los commits, en el caso de "oneline", un commit por línea|
-| `git push` |Publica los commits locales hacia el repositorio remoto|
+| `git init` |Inicializa un repositorio local de git |
+| `git status` |Muestra el estado de los archivos que estan dentro del repositorio |
+| `git add .` |Actualiza el estado de todos los archivos nuevos o modificados al "staging area" |
+| `git commit -m "..."` |Guarda una "foto" de los cambios hechos |
+| `git log --oneline` |Muestra el historial de los commits, en el caso de "oneline", un commit por línea | 
+| `git push` |Publica los commits locales hacia el repositorio remoto | 
 
 ---
 
