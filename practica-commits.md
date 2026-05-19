@@ -61,12 +61,12 @@ Algo sobre mí : Me gusta mucho escuchar música, los gatos y por supuesto la co
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` |Inicializa un repositorio local de git|
+| `git status` |Muestra el estado de los archivos que estan dentro del repositorio|
+| `git add .` |Actualiza el estado de todos los archivos nuevos o modificados al "staging area"|
+| `git commit -m "..."` |Guarda una "foto" de los cambios hechos|
+| `git log --oneline` |Muestra el historial de los commits, en el caso de "oneline", un commit por línea|
+| `git push` |Publica los commits locales hacia el repositorio remoto|
 
 ---
 
@@ -75,11 +75,11 @@ Algo sobre mí : Me gusta mucho escuchar música, los gatos y por supuesto la co
 **Qué hacer:** Cambia `[ ]` por `[x]` en cada punto que ya dominas.  
 **Commit:** `chore(practica): actualiza checklist de avance`
 
-- [ ] Hice `git init` sin ayuda
-- [ ] Entiendo para qué sirve el Staging Area
-- [ ] Escribí un mensaje de commit con formato Conventional Commits
-- [ ] Puedo ver el historial con `git log`
-- [ ] Completé todos los niveles de esta práctica
+- [x] Hice `git init` sin ayuda
+- [x] Entiendo para qué sirve el Staging Area
+- [x] Escribí un mensaje de commit con formato Conventional Commits
+- [x] Puedo ver el historial con `git log`
+- [x] Completé todos los niveles de esta práctica
 
 ---
 
