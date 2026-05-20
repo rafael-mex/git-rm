@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="author" content="Mex Lozano Rafael Emilio" >
+    <meta name="description" content="Apunte de las etiquetas en HTML" >
+    <title>Apunte HTML</title>
+    <style>
+        table th, tr, td {
+            border: 1px solid #000000;
+        }
+    </style>
+</head> 
+<body>
+    <table> 
+        <h1>Etiquetas en HTML</h1> 
+        <colgroup>  
+            <col span="3" >
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Etiqueta</th>
+                <th scope="col">¿Para qué sirve?</th>
+                <th scope="col">Ejemplo</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>meta / <code> &lt;meta&gt; </code> /</td>
+                <td>Define los metadatos en la página </td><td> "Estos son algunos ejemplos de metadatos": <br> <code>&lt;meta charset="UTF-8"&gt; -> Charset especifica el conjunto de caracteres <br> &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; -> Viewport ayuda la relación de aspecto de la página entre dispositivos, especialmente en celulares </code> 
+                <tr><td>title / <code> &lt;title&gt; </code> /</td>
+                <td>Le da el titulo a la página, este puede ser visible en el navegador al momento de ver la pestaña</td><td><code>&lt;title&gt;&lt;Apunte de etiquetas en HTML&gt;&lt;/title&gt; </code></td></tr>
+                <tr><td>heading / <code> &lt;hn&gt; </code> /</td>
+                <td>Define hasta seis encabezados, con cada encabezado que se coloque, el tamaño de letra va disminuyendo</td><td> <code> <h1>Encabezado 1</h1> <h2>Encabezado 2</h2> <h3>Encabezado 3</h3></code></td></tr>
+                <tr><td> párrafo / <code> &lt;p&gt; </code> /</td>
+                <td>Sirve para escribir un párrafo  en la página hasta seis encabezados</td><td> <code>&lt;p&gt;&lt;Esto es un párrafo corto&gt;&lt;/p&gt;</code></td></tr>
+                <tr><td>Unordered List (lista desordenada) / <code> &lt;ul&gt; </code> /</td>
+                <td>Crea listas sin un orden en específico</td><td> 
+                <pre><code> 
+&lt;ul&gt; 
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+    &lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ul&gt; </pre></code></td></tr>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
