@@ -1,0 +1,23 @@
+#ian{
+    background-color:forestgreen;
+    color: aliceblue
+}
+#Abishai{
+    background-color:gold;
+}
+#Rafael{
+    background-color:firebrick;
+    color: aliceblue
+}
+#Giovanni{
+    background-color:navy;
+    color: aliceblue
+}
+#Lizeth{
+    background-color:blueviolet;
+    color: aliceblue
+}
+.casilla{
+    width: 100%;
+    height: 30px;
+}
