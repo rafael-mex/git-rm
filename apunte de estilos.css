@@ -1,0 +1,11 @@
+#titulo {
+    color: aqua;
+}
+
+h3+h2 {
+    color: blueviolet
+}
+
+h2~h3 {
+    color: brown;
+}
