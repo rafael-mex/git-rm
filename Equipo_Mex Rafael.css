@@ -1,0 +1,172 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*-------Casilla del color favorito de Ian--------*/
+#ian{
+    background-color:forestgreen;
+    color: aliceblue
+}
+
+#ian:hover{
+    background-color: rgb(120,120,63);
+}
+
+.color-de-ian{
+    a:link {
+        color:aliceblue;
+    }
+    a:hover {
+        background-color: rgb(120,120,63);
+        color: white; 
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    a:visited {
+        color:aliceblue;
+    }
+}
+
+/*-------Casilla del color favorito de Abishai--------*/
+#abishai{
+    background-color:rgb(255, 215, 0);
+}
+
+#abishai:hover{
+    background-color: rgb(226,226,99);
+}
+
+.color-de-abishai{
+    a:link {
+        color:aliceblue;
+    }
+    a:hover {
+        background-color: rgb(226,226,99);
+        color: black; 
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    a:visited {
+        color:black;
+    }
+}
+
+/*-------Casilla del color favorito de Rafael--------*/
+#rafael{
+    background-color:firebrick;
+    color: aliceblue 
+}
+
+#rafael:hover{
+    background-color: rgb(94,94,46);
+}
+
+.color-de-rafael{
+    a:link {
+        color:aliceblue;
+    }
+    a:hover {
+        background-color: rgb(94,94,46);
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    a:visited {
+        color:aliceblue;
+    }
+}
+
+/*-------Casilla del color favorito de Giovanni--------*/
+#giovanni{
+    background-color:navy;
+    color: aliceblue
+}
+
+#giovanni:hover{
+    background-color: rgb(11,11,118);
+}
+
+.color-de-giovanni{
+    a:link {
+        color:aliceblue;
+    }
+    a:hover {
+        background-color: rgb(11,11,118);
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    a:visited {
+        color:aliceblue;
+    }
+}
+/*-------Casilla del color favorito de Lizeth--------*/
+#lizeth{
+    background-color:blueviolet;
+    color: aliceblue
+}
+
+#lizeth:hover{
+    background-color: rgb(79,79,209);
+}
+
+.color-de-lizeth{
+    a:link {
+        color:aliceblue;
+    }
+    a:hover {
+        background-color: rgb(79,79,209);
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    a:visited {
+        color:aliceblue;
+    }
+}
+
+#tabla th {
+    background-color: rgb(27, 32, 160);
+    color: aliceblue;
+}
+
+#tabla td, tr, th {
+    width: 150px;
+    height: 30px;
+}
+
+.integrante {
+    background-color: rgb(164, 193, 230);
+    width:150px;
+}
+
+#tabla {
+    border-style: outset;
+    border-color: rgb(27, 32, 160);
+    border-radius: 5px;
+    border-width: 10px;
+    border-spacing: 2px;
+}
+
+.sticky-note {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    min-height: 200px;
+    background-color: #fef08a;
+    padding: 20px;
+    font-family: 'Comic Sans MS', 'Caveat', cursive;
+}
+
+@media only screen and (min-width:1020px) {
+    body {
+        background-color: rgb(49, 96, 235);
+    }
+}
+
+@media only screen and (max-width:1019px) {
+    body {
+        background-color:  rgb(105, 143, 239);
+    }
+}
